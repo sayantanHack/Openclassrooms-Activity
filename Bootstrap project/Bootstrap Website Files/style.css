@@ -1,0 +1,98 @@
+﻿html, body{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	background-color: #440794;
+	padding: 1% 0;
+	font-size: 1.2 em;
+	border: none;
+}
+.active:hover{
+	font-size: 20px;
+	transition: 0.6s;
+}
+.navbar-brand{
+	min-height: 55 px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+	color: #06743d;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #cfdde6;
+}
+.btn-default{
+	color: #5302a8;
+	background-color: #fff;
+	border: none;
+	box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0);
+}
+.btn-default:hover{
+	color: #fff;
+	background-color: #c276da;
+	transition: 0.6s;
+}
+
+#home {
+	background: url(img/event.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover; 
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+} 
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #c276da;
+	font-family: 'Righteous', cursive;
+}
+.padding{
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+#fixed{
+	background: url(img/backg.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer {
+	width: 100%;
+	background-color: #034B33;
+	padding: 5% 5% 10% 5%;
+	color: #fff;
+}
+.fa{
+	padding: 15px;
+	font-size: 35px;
+	color: rgb(171, 158, 233);
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+@media (max-width: 786px){
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
