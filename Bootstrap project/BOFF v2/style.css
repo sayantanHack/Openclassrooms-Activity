@@ -89,6 +89,7 @@ input{
 }
 .padding img {
 	width: 100%;
+	border-radius: 10px;
 }
 #fixed{
 	background: url(img/backg.jpg) no-repeat center center fixed;
@@ -132,14 +133,18 @@ footer {
 .tab-content > .active{
 	display: block;
 }
-.row {
-    
+.row {    
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px;
+	margin-left: -15px;
+	font-size: 1.5em;
 }
+.no-gutters{
+	justify-content: center;
+}
+
 #news{
 	padding-top: 15px;
 }
@@ -182,7 +187,7 @@ footer {
 }
 .card-text {
     text-align: justify;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Amarante';
 }
 .col-film {
